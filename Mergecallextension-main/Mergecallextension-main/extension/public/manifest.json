@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "MergeCall",
+  "version": "0.0.1",
+  "icons": {
+    "128": "logo_28.png"
+ },
+  "browser_action": {
+   },
+  "content_scripts": [{ "js": ["content.js", "mergecall.js"], "matches": ["<all_urls>"]}],
+  "background": {
+  "scripts": [
+  "background.js"
+  ]
+  },
+  "permissions": ["tabs",  "storage", "<all_urls>"],
+  "web_accessible_resources": ["*.html"],
+  "content_security_policy": "script-src 'self' 'sha256-6hd5uEpFsk6RqmRYhw+uIVVIeUCk68e30QFWNRKeLCY='"
+  
+  }

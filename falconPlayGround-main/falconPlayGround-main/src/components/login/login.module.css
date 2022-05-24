@@ -1,0 +1,64 @@
+.form {
+  height: 30vh;
+  width: 60vh;
+  position: relative;
+  top: 50%;
+  left: 35%;
+  transform: translateY(50%);
+
+  padding: 5px;
+}
+
+label {
+  display: inline;
+}
+input {
+  display: block;
+  width: 100%;
+}
+.input {
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.emailError {
+  border: solid 1px red;
+}
+
+.passwordError {
+  border: solid 1px red;
+}
+
+input:focus {
+  border: none;
+}
+
+.errorModal {
+  display: relative;
+  left: 25%;
+  width: 50vw;
+  background-color: #fc9999;
+  position: absolute;
+  top: 0;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn__edit {
+  border: solid 1px black;
+}
+
+.details {
+  height: 30vh;
+  width: 60vh;
+  position: relative;
+  top: 50%;
+  left: 35%;
+  transform: translateY(50%);
+
+  padding: 5px;
+}

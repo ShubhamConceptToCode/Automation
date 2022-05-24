@@ -1,0 +1,78 @@
+body {
+  width: auto;
+  height: auto;
+  padding: 5px;
+}
+
+span {
+  color: green;
+}
+
+.c2c_btn {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  border-radius: 100%;
+  right: 10%;
+  top: 0;
+}
+img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  border-radius: 100%;
+  right: -8%;
+  top: 4%;
+}
+
+.api {
+  height: 100vh;
+  position: absolute;
+  top: 40%;
+  left: 20px;
+}
+.hide {
+  display: none;
+}
+._btn {
+  margin: 2px;
+  border-radius: 10px;
+}
+.api_webhook {
+  height: 100vh;
+  position: absolute;
+  top: 40%;
+  left: 100px;
+}
+
+.webhook {
+  margin-top: 31px;
+  margin-left: -19px;
+}
+
+.api_key_div {
+  height: 100vh;
+  position: absolute;
+  top: 40%;
+  left: 50px;
+}
+
+button {
+  background-color: #9ae66e;
+  border: solid 1px black;
+}
+button:hover {
+  background-color: #b4fe98;
+}
+
+.countryUrl{
+  margin-top: 4px;
+  padding-right: 15px;
+  font-size: 9px;
+}
+
+.topPlugin{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-right: 16px;
+}
